@@ -1,0 +1,5 @@
+v<-c(78.3,81.8,82,74.2,83.4,84.5,82.9,77.5,80.9,70.6)
+v1<-IQR(v)
+print(paste("value of iqr is:",v1))
+v2=sd(a)
+print(paste("value of sd is:",v2))
