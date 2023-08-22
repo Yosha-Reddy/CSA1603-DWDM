@@ -1,0 +1,7 @@
+v=c(9,23,25,12,11,6,7,8,9,10)
+v1=mean(v)
+v1
+v2=median(v)
+v2
+mode<-names(table(v))[table(v)==max(table(v))]
+mode
