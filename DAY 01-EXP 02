@@ -1,0 +1,10 @@
+age=c(13,15,16,16,19,20,20,21,22,22,25,25,25,25,30,33,33,35,35,35,35,36,40,45,46,52,70)
+v1=mean(age)
+print(paste("mean is:",v1))
+v2=median(age)
+print(paste("median is:",v2))
+mode_age<-names(table(age))[table(age)==max(table(age))]
+print(paste("mode is:",mode_age))
+mid_range=max(age)-min(age)
+print(paste("mide_range is:",mid_range))
+quantile(age,prob=c(0.25,0.75))
