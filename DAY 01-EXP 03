@@ -1,0 +1,12 @@
+#min max normalisation 
+v<-c(200,300,400,600,1000)
+v1<-min(v)
+v2<-max(v)
+min_max=((v-v1)/(v2-v1))
+print(min_max)
+
+#z_score normalisation
+v3<-mean(v)
+v4<-sd(v)
+z_score=(v-v3)/v4
+print(z_score)
